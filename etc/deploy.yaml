@@ -1,0 +1,11 @@
+#私钥
+PriKey: XXXXXXXXXXXXXXXXXXXXXXXXX    #私钥配置,把私钥粘贴上去替换
+
+#ethrpc请求配置
+EthRpcConf:
+  Url: https://rpc.ankr.com/eth  #Url:请求rpc地址 修改来替换各链rpc地址
+  IntervalTime: 1000  #IntervalTime 间隔时间 毫秒 默认1000
+
+MintConf:
+  ToAddr: XXXXXXXXXXXXXXXXXXXXXXXXX   #发送地址,默认不填,不填给自己地址发送,填了给指定地址发送
+  InputData:  #发送数据,替换成你需要发送的data数据,普通转账不需要填
